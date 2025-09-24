@@ -1,5 +1,5 @@
 # 👋 이래영 · QA Engineer
-효율을 설계하는 5년차 QA. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
+효율을 설계하는 4년차 QA. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
