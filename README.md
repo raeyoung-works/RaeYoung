@@ -38,7 +38,7 @@
 
 ## 📣 External Activity
 ####  [QA Korea Conference 발표](https://www.linkedin.com/posts/qa-korea-conference_qa-softwareqa-testing-activity-7346731415339716608-Qubp)
-- 📅 **2025.07 — QA Korea Conference 연사 (LinkedIn 후기 포함)**  
+- 📅 **2025.07 — QA Korea Conference 연사**  
 - **발표 주제**: QA 커리어 성장 인사이트: 회고와 목표 세분화  
 - **발표 내용 요약**
   - 커리어 성장 과정에서 겪은 고민과 인사이트 공유  
