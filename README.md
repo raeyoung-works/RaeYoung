@@ -50,16 +50,6 @@
    - 사용자 흐름 중심의 시나리오와 세부 테스트 케이스 입니다. 
    - 🔗 [상세 테스트 케이스 (Google Sheet)](https://docs.google.com/spreadsheets/d/1WE2UYtZpcLHk2i0Uj8kEk94Liuszb_SI9imxK_xY2z4/edit?gid=1025142518#gid=1025142518)
 
-
-### 2) 마을.zip (로컬 매거진) MVP 품질 전략
-> 🚧 진행 중인 사이드 프로젝트 (기획/아이디어 단계)
-
-- **목표**: 홈 / 매거진 / 마이페이지 MVP 화면에 대해 QA 관점에서 품질 리스크를 정리하고, One-Page Test Plan으로 문서화 예정
-- **현재까지**: QA 개입 포인트 정의, Notion 기반 MVP 품질 체크리스트 초안 작성
-- **예상 산출물**: 
-  - One-Page Test Plan  
-  - RPN 매트릭스 (리스크 기반 우선순위)  
-  - 기본 시나리오 (MVP Smoke Test 수준)
 ---
 
 ## 📣 External Activity
