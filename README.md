@@ -22,9 +22,11 @@
 
   ---
   ## 📄 Experience (요약)
+  - **월급쟁이부자들**: 커뮤니티 도메인 정기 배포 QA, 사내 **AX(AI Transformation) 과정** 참여 → *Obsidian × Claude Code 기반 개인 QA 지식 관리 시스템
+  직접 설계·운영 ([Projects #2](#2-qa-knowledge-vault--obsidian--claude-code-기반-지식-관리-시스템) 참조)*
   - **퀸잇(라포랩스)**: App/WebView/Admin 정기 배포 QA, 케이스 표준화, 핫픽스 회고 체계 → *리뷰 속도 ~30% 단축, 핫픽스 ~50% 감소*
   - **디케이테크인**: 메시징 백업/프로모션 QA(UX+API+DB 통합) → *오픈 첫 주 CS 0건*
-  - **어니컴**: 반복 테스트 자동화 PoC → *TC 40% 자동화, 이슈 검출률 2배*
+  - **어니컴**: 반복 테스트 자동화 PoC → *TC 40% 자동화, 이슈 검출률 2배
 
   ---
   ##  Tech Stack
