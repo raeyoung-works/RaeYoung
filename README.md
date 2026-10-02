@@ -109,6 +109,6 @@
 
 
   ## 📬 Contact
-  - Email: raeyoung.works@gmil.com
+  - Email: raeyoung.works@gmail.com
   - Blog: https://rae-gi.tistory.com
   - LinkedIn: https://www.linkedin.com/in/raeyoung-lee
