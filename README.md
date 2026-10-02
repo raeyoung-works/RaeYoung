@@ -85,7 +85,8 @@
 
   #### 📑 산출물
   - 🔗 [GitHub Repository — qa-knowledge-vault](https://github.com/raeyoung-works/qa-knowledge-vault)
-  - 🔗 발표 자료 · 회고 블로그 글 (추후 공개 예정)
+  - 🔗 [Claude Code가 없는 기능의 테스트케이스를 썼습니다](https://rae-gi.tistory.com/163) — 시스템 개선기
+  - 🔗 발표 자료 (추후 공개 예정)
 
   ---
 
