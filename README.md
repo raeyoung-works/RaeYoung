@@ -1,5 +1,5 @@
   # 👋 이래영 · QA Engineer
-  효율을 설계하는 4년차 QA. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
+  효율을 설계하는 QA 4년 10개월 차. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
 
   ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
   ![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
@@ -11,6 +11,8 @@
   ![Obsidian](https://img.shields.io/badge/Obsidian-7c3aed?logo=obsidian&logoColor=white)
   ![Claude_Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
   ![MCP](https://img.shields.io/badge/MCP-000000?logo=anthropic&logoColor=white)
+  ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
   ---
 
@@ -22,16 +24,15 @@
 
   ---
   ## 📄 Experience (요약)
-  - **월급쟁이부자들**: 커뮤니티 도메인 정기 배포 QA, 사내 **AX(AI Transformation) 과정** 참여 → *Obsidian × Claude Code 기반 개인 QA 지식 관리 시스템
-  직접 설계·운영 ([Projects #2](#2-qa-knowledge-vault--obsidian--claude-code-기반-지식-관리-시스템) 참조)*
+  - **월급쟁이부자들**: 커뮤니티·중개 두 스쿼드 QA, 개발본부 **AX(AI Transformation) 프로젝트** 참여 → *tc-writer·e2e-writer로 TC 작성부터 E2E 수행까지 52% 단축, Obsidian × Claude Code 기반 QA 지식 관리 시스템 직접 설계·운영 ([Projects #2](#2-qa-knowledge-vault--obsidian--claude-code-기반-지식-관리-시스템) 참조)*
   - **퀸잇(라포랩스)**: App/WebView/Admin 정기 배포 QA, 케이스 표준화, 핫픽스 회고 체계 → *리뷰 속도 ~30% 단축, 핫픽스 ~50% 감소*
   - **디케이테크인**: 메시징 백업/프로모션 QA(UX+API+DB 통합) → *오픈 첫 주 CS 0건*
-  - **어니컴**: 반복 테스트 자동화 PoC → *TC 40% 자동화, 이슈 검출률 2배
+  - **어니컴**: 반복 테스트 자동화 PoC → *TC 40% 자동화, 이슈 검출률 2배*
 
   ---
   ##  Tech Stack
   - **테스트 설계** · 경계값 · 동등분할 · Pairwise · 상태 전이 · 탐색적 테스트
-  - **자동화** · Python · Selenium(POM) · Pytest
+  - **자동화** · Python · Selenium(POM) · Pytest · Playwright · TypeScript
   - **API 검증** · Postman · REST API · JSON Schema Validation
   - **관찰/분석** · Firebase · Chrome DevTools · MySQL
   - **협업** · Jira ·  Notion · Confluence · Slack
@@ -40,7 +41,7 @@
 
   ## 📑 Projects (개인 프로젝트)
   ### 1) Musinsa PDP **AI 추천** 역기획 QA
-  > ⚠️ 해당 프로젝트는 **개인 연구**이며, 해당 기업과 **아무런 관계가 없습니다.**>
+  > ⚠️ 해당 프로젝트는 **개인 연구**이며, 해당 기업과 **아무런 관계가 없습니다.**
 
   #### 📌 프로젝트 개요
   - **목적**: 상용화된 무신사 상품 상세 페이지(PDP)의 **AI 추천 기능**을 실제 사용자 관점에서 분석하고
@@ -77,10 +78,9 @@
     - PARA 변형 폴더 구조 + 도메인 MOC(Map of Content) 기반 양방향 백링크
 
   #### 📈 운영 성과 (active iteration 중)
-  - 📑 **인사이트 12건** 원자 단위로 누적 → 다음 프로젝트 부트스트랩 시 자동 컨텍스트 로드
-  - 📜 **운영 정책 4건** · **이슈 히스토리 3건** · **완료 프로젝트 3건** · **도메인 MOC 3건**
-  - ⚡ **슬래시 스킬 약 10개** 로 반복 분류 결정 자동화 (`/new-project` · `/close-project` · `/inbox-cleanup` 등)
-  - 🔍 **슬랙 65개 메시지 스레드** 에서 **미기록 결정 2건 자동 발견** → 결정 로그 D12·D13 시간순 append
+  - 📑 **인사이트 129건** 원자 단위로 누적 → 다음 프로젝트 부트스트랩 시 자동 컨텍스트 로드
+  - 📜 **서비스 정책 60여 건** · **이슈 히스토리 48건** · **완료 프로젝트 33건** · **도메인 MOC 18개**
+  - ⚡ **슬래시 스킬 11개** 로 반복 분류 결정 자동화 (`/new-project` · `/close-project` · `/inbox-cleanup` 등)
   - 🛡️ **AI 자동 작성 시스템의 가드레일 4규칙** 박제 → "그럴듯한 추측이 사실처럼 박제되는" 위험 차단
 
   #### 📑 산출물
