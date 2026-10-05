@@ -24,7 +24,7 @@
 
   ---
   ## 📄 Experience (요약)
-  - **월급쟁이부자들**: 커뮤니티·중개 두 스쿼드 QA, 개발본부 **AX(AI Transformation) 프로젝트** 참여 → *tc-writer·e2e-writer로 TC 작성부터 E2E 수행까지 52% 단축, Obsidian × Claude Code 기반 QA 지식 관리 시스템 직접 설계·운영 ([Projects #2](#2-qa-knowledge-vault--obsidian--claude-code-기반-지식-관리-시스템) 참조)*
+  - **월급쟁이부자들**: 커뮤니티·중개 두 스쿼드 QA, 개발본부 **AX(AI Transformation) 프로젝트** 참여 → *tc-writer·e2e-writer로 TC 작성부터 E2E 수행까지 62% 단축([Projects #3](#3-eywa-qa-벤치마크--ai-스킬의-효과를-숫자로-재다)), Obsidian × Claude Code 기반 QA 지식 관리 시스템 직접 설계·운영 ([Projects #2](#2-qa-knowledge-vault--obsidian--claude-code-기반-지식-관리-시스템) 참조)*
   - **퀸잇(라포랩스)**: App/WebView/Admin 정기 배포 QA, 케이스 표준화, 핫픽스 회고 체계 → *리뷰 속도 ~30% 단축, 핫픽스 ~50% 감소*
   - **디케이테크인**: 메시징 백업/프로모션 QA(UX+API+DB 통합) → *오픈 첫 주 CS 0건*
   - **어니컴**: 반복 테스트 자동화 PoC → *TC 40% 자동화, 이슈 검출률 2배*
@@ -87,6 +87,23 @@
   - 🔗 [GitHub Repository — qa-knowledge-vault](https://github.com/raeyoung-works/qa-knowledge-vault)
   - 🔗 [Claude Code가 없는 기능의 테스트케이스를 썼습니다](https://rae-gi.tistory.com/163) — 시스템 개선기
   - 🔗 발표 자료 (추후 공개 예정)
+
+  ### 3) EYWA QA 벤치마크 — AI 스킬의 효과를 숫자로 재다
+
+  #### 📌 프로젝트 개요
+  - **배경**: 회사의 AX 프로젝트 팀이 진행한 EYWA 프로젝트(AI를 실무에 적용해 리드타임 단축)의 **QA 트랙**. QA용 AI 스킬이 테스트케이스 작성과 수행 시간을 실제로 줄이는지, 느낌이 아니라 **숫자로** 확인하는 측정 틀(벤치마크)을 만들고 운영
+  - **내 역할**: 백엔드 엔지니어가 만든 측정 틀을 QA 업무에 맞게 재설계하고, QA 전용 저장소 구성·사람 실측·측정 운영·결과 분석을 주도
+  - **측정 방식**: 같은 기획서와 결함 5개를 심은 시험용 서버를 고정하고 스킬만 바꿔 조건마다 3번 반복. 채점은 AI의 말이 아니라 **테스트 재실행으로 확인한 실제 실패**로 하고, 채점용 목록은 AI가 볼 수 없게 격리
+
+  #### 📈 결과
+  - 같은 기획서 기준 소요 시간 **사람 3시간 42분 → 스킬을 쓴 AI 1시간 24분 (62% 단축)**
+  - 심어 둔 결함 5개를 3번 모두 첫 시도에 전부 탐지 (단, 측정용 과제가 1개인 **파일럿 결과**)
+  - 개선이 오히려 느려진 사례(성능 회귀), 결함이 있는데 테스트가 통과한 사례(거짓 통과)의 원인 분석과 대응 기록
+
+  #### 📑 산출물
+  - 🔗 [GitHub Repository — qa-skill-benchmark](https://github.com/raeyoung-works/qa-skill-benchmark) — 배경, 내 역할, 측정 방법, 사례 2건, 결과
+  - 🔗 [심화: 측정 설계와 결과 상세](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/deep-dive.md)
+  - 🔗 [용어집](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/glossary.md)
 
   ---
 
