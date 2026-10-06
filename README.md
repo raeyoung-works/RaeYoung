@@ -24,6 +24,7 @@
 | 프로젝트 | 무엇을 증명하나 | 링크 |
 |---|---|---|
 | **QA 스킬 벤치마크** | AI 스킬이 QA 시간을 정말 줄이는지 숫자로 검증. 사람 3시간 42분 → AI 1시간 24분 (**62% 단축**), 심어 둔 결함 5개를 3번 모두 첫 시도에 탐지(파일럿) | [레포](https://github.com/raeyoung-works/qa-skill-benchmark) · [심화](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/deep-dive.md) · [용어집](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/glossary.md) |
+| **tc-writer** | Feature QA의 테스트케이스를 쓰는 AI 스킬. QA의 판단 기준을 스크립트 검사로 고정해 TC 작성 시간 **2시간 → 6분 (95% 감소)**, 엣지 체크리스트의 커버리지 효과 **+10 ~ +14%p**(블라인드 A/B 테스트) | [설계 기록](https://github.com/raeyoung-works/tc-writer-design) · [설계 노트](https://github.com/raeyoung-works/tc-writer-design/blob/main/docs/design-notes.md) |
 | **QA Knowledge Vault** | 휘발되는 QA 경험을 재사용 자산으로. 인사이트 **131건**, 슬래시 스킬 **11개**, AI 자동 작성 가드레일 4규칙 | [레포](https://github.com/raeyoung-works/qa-knowledge-vault) · [시스템 개선기](https://rae-gi.tistory.com/163) |
 | **무신사 PDP AI 추천 역기획 QA** | 상용 서비스를 사용자 관점에서 분석해 리스크 기반 테스트 전략과 케이스를 설계. 개인 연구이며 해당 기업과 무관 | [역기획 리뷰](./docs/01_reverse_review.pdf) · [테스트 전략](./docs/02_test_strategy.md) · [시나리오·케이스](./docs/03_test_scenario_cases.md) · [케이스 시트](https://docs.google.com/spreadsheets/d/1WE2UYtZpcLHk2i0Uj8kEk94Liuszb_SI9imxK_xY2z4/edit?gid=1025142518#gid=1025142518) |
 
@@ -35,6 +36,16 @@
 - **측정 방식**: 같은 기획서와 결함 5개를 심은 시험용 서버를 고정하고 스킬만 바꿔 조건마다 3번 반복. 채점은 AI의 말이 아니라 **테스트 재실행으로 확인한 실제 실패**로 하고, 채점용 목록은 AI가 볼 수 없게 격리
 - **결과**: 같은 기획서 기준 소요 시간 사람 3시간 42분 → 스킬을 쓴 AI 1시간 24분(62% 단축). 측정용 과제가 1개인 **파일럿 결과**
 - 개선이 오히려 느려진 사례(성능 회귀), 결함이 있는데 테스트가 통과한 사례(거짓 통과)의 원인 분석과 대응 기록
+
+</details>
+
+<details>
+<summary>tc-writer: 개요</summary>
+
+- **목적**: 기능마다 새로 써야 해서 기능 하나에 2시간 안팎이 걸리던 Feature QA의 테스트케이스(TC) 작성을, QA의 판단 기준을 지키는 AI 스킬로 줄이고 그 시간을 제품을 더 들여다보는 데 쓴다
+- **내 역할**: 설계, 구현, 고도화. 팀 스킬 저장소에 올려 QA 동료도 사용
+- **구조**: 본문(작업 9단계), 참고 문서 10개, 스크립트 3개. 확인할 수 있는 기준(회귀 TC 누락, 엣지 판정 기록)은 지시문이 아니라 스크립트가 검사하고, 빠지면 엑셀을 만들지 않는다
+- **결과**: TC 작성 2시간 → 6분 (95% 감소), 4~9월 실무 TC 파일 36건. 6월 블라인드 A/B 테스트에서 구조 정리는 오히려 커버리지가 낮았고(−2.2 ~ −6.2%p), 엣지 체크리스트는 +10.0 ~ +14.0%p 효과가 있었다 (파일럿)
 
 </details>
 
