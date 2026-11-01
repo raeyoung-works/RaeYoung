@@ -1,12 +1,12 @@
 # 이래영 · QA Engineer
 
-효율을 설계하는 QA 4년 11개월 차. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
+효율을 설계하는 QA 5년 차. 자동화 스크립트와 테스트 전략으로 **신뢰 가능한 배포**를 만듭니다.
 
 [![Email](https://img.shields.io/badge/Email-raeyoung.works@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:raeyoung.works@gmail.com)
 [![Blog](https://img.shields.io/badge/Blog-rae--gi.tistory.com-FF5A4A?style=flat-square&logo=tistory&logoColor=white)](https://rae-gi.tistory.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-raeyoung--lee-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raeyoung-lee)
 
-| **62%** | **131건** | **1회** |
+| **62%** | **143건** | **1회** |
 |:---:|:---:|:---:|
 | TC 작성~수행 시간 단축<br>(QA 스킬 벤치마크) | 누적한 QA 인사이트<br>(QA Knowledge Vault) | QA Korea Conference 연사<br>(2025.07) |
 
@@ -25,7 +25,7 @@
 |---|---|---|
 | **QA 스킬 벤치마크** | AI 스킬이 QA 시간을 정말 줄이는지 숫자로 검증. 사람 3시간 42분 → AI 1시간 24분 (**62% 단축**), 심어 둔 결함 5개를 3번 모두 첫 시도에 탐지(파일럿) | [레포](https://github.com/raeyoung-works/qa-skill-benchmark) · [심화](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/deep-dive.md) · [용어집](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/glossary.md) |
 | **tc-writer** | Feature QA의 테스트케이스를 쓰는 AI 스킬. QA의 판단 기준을 스크립트 검사로 고정해 TC 작성 시간 **2시간 → 6분 (95% 감소)**, 엣지 체크리스트의 커버리지 효과 **+10 ~ +14%p**(블라인드 A/B 테스트) | [설계 기록](https://github.com/raeyoung-works/tc-writer-design) · [설계 노트](https://github.com/raeyoung-works/tc-writer-design/blob/main/docs/design-notes.md) |
-| **QA Knowledge Vault** | 휘발되는 QA 경험을 재사용 자산으로. 인사이트 **131건**, 슬래시 스킬 **11개**, AI 자동 작성 가드레일 4규칙 | [레포](https://github.com/raeyoung-works/qa-knowledge-vault) · [시스템 개선기](https://rae-gi.tistory.com/163) |
+| **QA Knowledge Vault** | 휘발되는 QA 경험을 재사용 자산으로. 인사이트 **143건**, 슬래시 스킬 **11개**, AI 자동 작성 가드레일 4규칙 | [레포](https://github.com/raeyoung-works/qa-knowledge-vault) · [시스템 개선기](https://rae-gi.tistory.com/163) |
 | **무신사 PDP AI 추천 역기획 QA** | 상용 서비스를 사용자 관점에서 분석해 리스크 기반 테스트 전략과 케이스를 설계. 개인 연구이며 해당 기업과 무관 | [역기획 리뷰](./docs/01_reverse_review.pdf) · [테스트 전략](./docs/02_test_strategy.md) · [시나리오·케이스](./docs/03_test_scenario_cases.md) · [케이스 시트](https://docs.google.com/spreadsheets/d/1WE2UYtZpcLHk2i0Uj8kEk94Liuszb_SI9imxK_xY2z4/edit?gid=1025142518#gid=1025142518) |
 
 <details>
@@ -61,7 +61,7 @@
   - Obsidian vault에 모든 결정·이슈·정책을 박제 (append-only · markdown-first)
   - Claude Code 슬래시 스킬이 자동 분류·연결·재사용 수행
   - PARA 변형 폴더 구조 + 도메인 MOC(Map of Content) 기반 양방향 백링크
-- **운영 성과 (active iteration 중)**: 인사이트 **131건** · 서비스 정책 **68건** · 이슈 히스토리 **48건** · 완료 프로젝트 **33건** · 도메인 MOC **18개** · 슬래시 스킬 **11개**(`/new-project` · `/close-project` · `/inbox-cleanup` 등)
+- **운영 성과 (active iteration 중)**: 인사이트 **143건** · 서비스 정책 **77건** · 이슈 히스토리 **54건** · 완료 프로젝트 **36건** · 도메인 MOC **19개** · 슬래시 스킬 **11개**(`/new-project` · `/close-project` · `/inbox-cleanup` 등)
 - **가드레일**: AI 자동 작성 시스템의 가드레일 4규칙을 박제해 "그럴듯한 추측이 사실처럼 박제되는" 위험을 차단
 
 </details>
@@ -107,6 +107,8 @@
 - [QA의 Lunch & Learn 문화 도입 후기](https://rae-gi.tistory.com/115)
 - [QA 포트폴리오 인사이트 공유](https://rae-gi.tistory.com/134)
 - [Claude Code가 없는 기능의 테스트케이스를 썼습니다](https://rae-gi.tistory.com/163)
+- [한 달 안에 새 서비스를 만들 때, QA는 일을 이렇게 나눴습니다](https://rae-gi.tistory.com/168)
+- [AI 테스트에도 기법이 있을까? 동등 분할부터 레드팀까지](https://rae-gi.tistory.com/169)
 - [기술용어들을 정리하는 한줄용어](https://rae-gi.tistory.com/category/%E2%9C%8F%EF%B8%8F%20%ED%95%9C%EC%A4%84%20%EC%9A%A9%EC%96%B4)
 
 ## Contact
