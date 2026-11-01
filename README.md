@@ -26,6 +26,7 @@
 | **QA 스킬 벤치마크** | AI 스킬이 QA 시간을 정말 줄이는지 숫자로 검증. 사람 3시간 42분 → AI 1시간 24분 (**62% 단축**), 심어 둔 결함 5개를 3번 모두 첫 시도에 탐지(파일럿) | [레포](https://github.com/raeyoung-works/qa-skill-benchmark) · [심화](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/deep-dive.md) · [용어집](https://github.com/raeyoung-works/qa-skill-benchmark/blob/main/docs/glossary.md) |
 | **tc-writer** | Feature QA의 테스트케이스를 쓰는 AI 스킬. QA의 판단 기준을 스크립트 검사로 고정해 TC 작성 시간 **2시간 → 6분 (95% 감소)**, 엣지 체크리스트의 커버리지 효과 **+10 ~ +14%p**(블라인드 A/B 테스트) | [설계 기록](https://github.com/raeyoung-works/tc-writer-design) · [설계 노트](https://github.com/raeyoung-works/tc-writer-design/blob/main/docs/design-notes.md) |
 | **QA Knowledge Vault** | 휘발되는 QA 경험을 재사용 자산으로. 인사이트 **143건**, 슬래시 스킬 **11개**, AI 자동 작성 가드레일 4규칙 | [레포](https://github.com/raeyoung-works/qa-knowledge-vault) · [시스템 개선기](https://rae-gi.tistory.com/163) |
+| **E2E 회귀 자동화 설계** | 약 6주 안에 새로 만드는 서비스의 회귀 확인을 자동화에 맡긴 구조. 케이스 한 줄을 테스트 하나로 잇고 준비와 정리를 테스트 밖으로 빼서, 회귀 테스트 22건을 기존 준비물 그대로 붙임(첫 실행 모두 통과, 약 11분) | [설계 기록](https://github.com/raeyoung-works/e2e-automation-design) · [과정 글](https://rae-gi.tistory.com/168) |
 | **무신사 PDP AI 추천 역기획 QA** | 상용 서비스를 사용자 관점에서 분석해 리스크 기반 테스트 전략과 케이스를 설계. 개인 연구이며 해당 기업과 무관 | [역기획 리뷰](./docs/01_reverse_review.pdf) · [테스트 전략](./docs/02_test_strategy.md) · [시나리오·케이스](./docs/03_test_scenario_cases.md) · [케이스 시트](https://docs.google.com/spreadsheets/d/1WE2UYtZpcLHk2i0Uj8kEk94Liuszb_SI9imxK_xY2z4/edit?gid=1025142518#gid=1025142518) |
 
 <details>
